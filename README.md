@@ -4,6 +4,10 @@ The main goal of this framework is to abuse the dunder methods to compose a web 
 
 This first concept uses the `__add__()` dunder method to combine middlewares into applications
 
+To run, execute the `wsgi.py` -> `python wsgi.py`
+
+This project has no third party requirements.
+
 Next concepts to apply:
 
 * `__sub__()` - dunder to remove responses and requests or middlewares
