@@ -6,8 +6,8 @@ This first concept uses the `__add__()` dunder method to combine middlewares int
 
 Next concepts to apply:
 
-* `__sub__()` - dunder to remove responces and requests or middlewares
-* `__next__()`, `__iter__()`  - in conjuction with `__str__()` to generate a human readable pipeline of the app
+* `__sub__()` - dunder to remove responses and requests or middlewares
+* `__next__()`, `__iter__()`  - in conjunction with `__str__()` to generate a human readable pipeline of the app
 * determine what the other math operators mean in the context of middlewares, applications, and the web request cycle
 * Add support for POST/PUT (and other HTTP actions)
 * complete SQLite DB support as persistent storage
