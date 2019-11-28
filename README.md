@@ -8,6 +8,11 @@ To run, execute the `wsgi.py` -> `python wsgi.py`
 
 This project has no third party requirements.
 
+To make an app, build middleware then combine them together with the `+` operator. 
+
+Inhering from the `MiddleWare` class, and define the `__call__` dunder, which take a `Request`
+and a `Response` pair of instances.
+
 Next concepts to apply:
 
 * `__sub__()` - dunder to remove responses and requests or middlewares
