@@ -1,6 +1,6 @@
-The Almost Algebraic WSGI Framework
+The Almost Usable WSGI Framework
 
-The main goal of this framework is to abuse the dunder methods to compose a web app.
+The main goal of this framework is to use only the dunder methods to compose a web app.
 
 This first concept uses the `__add__()` dunder method to combine middlewares into applications
 
